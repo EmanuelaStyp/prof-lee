@@ -1,6 +1,55 @@
-h1{
-    color: green
+/*body{
+    background-image: url("http://127.0.0.1:5500/assets/img/sunset.webp");
+    background-repeat: no-repeat;       
+    background-size: cover;            
+    background-position: center center;
+    font-familiy: Arial, Helvetica, sans-serif;
+    padding :0px;
+    margin: 0px;
 }
-p{
-    color: red
+h1{
+    text-align: center;
+}
+.textGreen {
+    color: green;
+    
+}
+.bigText{
+    font-size: xx-large;
+}*/
+.bgRed{
+    background-color: red;
+}
+.bgBlue{
+    background-color: blue;
+}  
+/*.myPad{
+    padding: 20px;
+}
+.pad20fromLeft{
+    /*padding-left: 20px;
+    padding-top: 50px;
+    padding-bottom: 10px;
+    padding-right: 80px;*/
+    /*       top right bottom left
+    padding: 50px 80px 10px 20px;
+}
+
+
+.myzTop{
+    position :absolute
+    z-index: -1;
+}
+.myzdown{
+    z-index: 1;
+}*/
+.sideBySide{
+    display: flex;
+    
+}
+/*.mymargin{
+    margin: -40px 40px 100px 10px 
+}    */
+.myPad{
+    padding: 20px;
 }
