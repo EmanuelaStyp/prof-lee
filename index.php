@@ -25,12 +25,12 @@
     <!-- section Hero-->
 <section>
     <div class="bg-gradient-to-tr from-cyan-200 via-blue-400 to-indigo-600  text-gray-100 min-h-32 shadow-md text-center p-4 space" >
-       
-       <div class="text-8xl">Welcome Prof. Lee Website</div>
-       <p class="text-4xl"> PHD Microprocessor Design</p>
         <div>
             <img class="rounded-full shadow-lg shadow-cyan-500 "src="http://127.0.0.1:5500/assets/img/sunset.webp">
         </div>
+       
+       <div class="text-8xl">Welcome Prof. Lee Website</div>
+       <p class="text-4xl"> PHD Microprocessor Design</p>
     </div>
 </section>
  
@@ -61,7 +61,7 @@
   <section>
       <footer>
             <div class="bg-gradient-to-r from-cyan-500 to-blue-500 text-white p-4 text-xs">
-                copyright 2024 @ Prof. Lee
+              <?php  echo "copyright 2025 @ Prof. Lee" ?>
             </div>
       </footer>
   </section>
