@@ -1,7 +1,7 @@
 services:
   web:
     build: .
-    container_name: prof-lee-web
+    container_name: prof-lee 
     ports:
       - "8080:80"              # http://localhost:8080 im Browser
     volumes:

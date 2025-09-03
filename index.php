@@ -25,7 +25,7 @@
 <section>
     <div class="bg-gradient-to-tr from-cyan-200 via-blue-400 to-indigo-600  text-gray-100 min-h-32 shadow-md text-center p-4 space" >
         <div>
-            <img class="rounded-full shadow-lg shadow-cyan-500 "src="http://127.0.0.1:5500/assets/img/sunset.webp">
+            <img class="rounded-full shadow-lg shadow-cyan-500 "src="./assets/img/sunset.webp">
         </div>
        
        <div class="text-8xl">Welcome Prof. Lee Website</div>
@@ -37,12 +37,12 @@
     <!--code area section -->
 <section>
     <div class="min-h-32 bg-red-100">
+        <span class="text-red-500"><?=$my_name?>echo var_dump$(value: $_Post);</span>
      <?php
         $my_name = "Prof. Lee";
         $welcome = "Welcome to my website";
         echo $welcome.$my_name;
      ?>
-     <span class="text-red-500"><?=$my_name?></span>
     </div>
 </section>
 
