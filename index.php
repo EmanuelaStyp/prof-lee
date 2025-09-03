@@ -1,9 +1,13 @@
 <?php
-require_once('./include/header.php');
+
 $IS_DEV = false;
 $my_name = "Prof. Lee";
 $welcome = "Welcome to my website";
 require_once('./code/index.php');
+require('./components/card.php');
+require_once("./code/readEcho.php");
+showHeader();   
+showHero();
 ?>
 
 <section>
@@ -11,12 +15,9 @@ require_once('./code/index.php');
     <div class="grid grid-cols-3 gap-4">
 
       <?php
-      $card_title= "example";
-      $card_content= "example content";
-      $card_link=" example link";
-      require('./components/card.php');
-      require('./components/card.php');
-      require('./components/card.php');
+     createCard(card_title: "Card 1", card_content: "This is the content of card 1", card_link: "#");
+     createCard(card_title: "Card 2", card_content: "This is the content of card 2", card_link: "#");
+     createCard(card_title: "Card 3", card_content: "This is the content of card 3", card_link: "#");
       ?>
 
 
